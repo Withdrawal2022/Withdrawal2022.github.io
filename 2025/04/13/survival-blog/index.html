@@ -9,26 +9,26 @@
   <meta name="description" content="Data IntroductionFirst we need to take a look at all the variables. The dataset contains 21 variables, and the description of the variables is shown below:    Variable Type Description    customerID S">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Survival Analysis on Telco Customer Churn">
-<meta property="og:url" content="http://example.com/2025/04/13/Survival_blog/index/index.html">
+<meta property="og:url" content="http://example.com/2025/04/13/survival-blog/index.html">
 <meta property="og:site_name" content="Kiryuu&#39;s Blog">
 <meta property="og:description" content="Data IntroductionFirst we need to take a look at all the variables. The dataset contains 21 variables, and the description of the variables is shown below:    Variable Type Description    customerID S">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/image-2.png">
-<meta property="og:image" content="http://example.com/image-3.png">
-<meta property="og:image" content="http://example.com/image-4.png">
-<meta property="og:image" content="http://example.com/image-6.png">
-<meta property="og:image" content="http://example.com/image-5.png">
-<meta property="og:image" content="http://example.com/image-8.png">
-<meta property="og:image" content="http://example.com/image-9.png">
-<meta property="og:image" content="http://example.com/image-10.png">
-<meta property="og:image" content="http://example.com/image-11.png">
-<meta property="og:image" content="http://example.com/image-7.png">
-<meta property="og:image" content="http://example.com/image-12.png">
-<meta property="og:image" content="http://example.com/image-13.png">
-<meta property="og:image" content="http://example.com/image-14.png">
-<meta property="og:image" content="http://example.com/image-15.png">
+<meta property="og:image" content="http://example.com/images/image-3.png">
+<meta property="og:image" content="http://example.com/images/image-4.png">
+<meta property="og:image" content="http://example.com/images/image-6.png">
+<meta property="og:image" content="http://example.com/images/image-5.png">
+<meta property="og:image" content="http://example.com/images/image-8.png">
+<meta property="og:image" content="http://example.com/images/image-9.png">
+<meta property="og:image" content="http://example.com/images/image-10.png">
+<meta property="og:image" content="http://example.com/images/image-11.png">
+<meta property="og:image" content="http://example.com/images/image-7.png">
+<meta property="og:image" content="http://example.com/images/image-12.png">
+<meta property="og:image" content="http://example.com/images/image-13.png">
+<meta property="og:image" content="http://example.com/images/image-14.png">
+<meta property="og:image" content="http://example.com/images/image-15.png">
 <meta property="article:published_time" content="2025-04-13T15:59:59.000Z">
-<meta property="article:modified_time" content="2025-04-13T15:29:55.259Z">
+<meta property="article:modified_time" content="2025-04-13T16:46:54.619Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/image-2.png">
@@ -88,9 +88,9 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-Survival_blog/index" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-survival-blog" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2025/04/13/Survival_blog/index/" class="article-date">
+    <a href="/2025/04/13/survival-blog/" class="article-date">
   <time class="dt-published" datetime="2025-04-13T15:59:59.000Z" itemprop="datePublished">2025-04-13</time>
 </a>
     
@@ -242,8 +242,8 @@
 <li><strong>T</strong>: <code>tenure</code> (duration until event or censoring)</li>
 <li><strong>C</strong>: <code>churn</code> (1 if churned, 0 if censored)</li>
 </ul>
-<p><strong>Result</strong>:<br>The KM survival curve is shown below:<br><img src="/image-3.png" alt="alt text"></p>
-<p>Stratified KM curves were plotted for each categorical variable, the survival curves are shown below:<br><img src="/image-4.png" alt="alt text"></p>
+<p><strong>Result</strong>:<br>The KM survival curve is shown below:<br><img src="/images/image-3.png" alt="alt text"></p>
+<p>Stratified KM curves were plotted for each categorical variable, the survival curves are shown below:<br><img src="/images/image-4.png" alt="alt text"></p>
 <p><strong>Log-Rank Tests</strong>:</p>
 <ul>
 <li>Statistically significant differences in survival curves were found for multiple covariates, including <ul>
@@ -287,8 +287,8 @@
 <li><code>techSupport</code></li>
 <li><code>paperlessBilling</code></li>
 </ul>
-<p><strong>Model Summary Raw Result</strong>:<br><img src="/image-6.png" alt="alt text"></p>
-<p><img src="/image-5.png" alt="alt text"></p>
+<p><strong>Model Summary Raw Result</strong>:<br><img src="/images/image-6.png" alt="alt text"></p>
+<p><img src="/images/image-5.png" alt="alt text"></p>
 <p><strong>Model Summary</strong>:</p>
 <table>
 <thead>
@@ -328,13 +328,13 @@
 <ul>
 <li>Scaled Schoenfeld residuals were plotted against time to check for proportional hazards assumption.</li>
 </ul>
-<p><img src="/image-8.png" alt="alt text"><br><img src="/image-9.png" alt="alt text"><br><img src="/image-10.png" alt="alt text"><br><img src="/image-11.png" alt="alt text"></p>
+<p><img src="/images/image-8.png" alt="alt text"><br><img src="/images/image-9.png" alt="alt text"><br><img src="/images/image-10.png" alt="alt text"><br><img src="/images/image-11.png" alt="alt text"></p>
 <p>According to the Schoenfeld residuals, only the plot of the variable <code>dependents</code> is horizontal, which means the variable <code>dependents</code> is proportional. </p>
 <ul>
-<li><p>Statistical Test Result<br><img src="/image-7.png" alt="alt text"></p>
+<li><p>Statistical Test Result<br><img src="/images/image-7.png" alt="alt text"></p>
 <p>  The result is the same as using Schoenfeld residuals, which means the variable <code>dependents</code> is proportional.</p>
 </li>
-<li><p>log-log plots<br><img src="/image-12.png" alt="alt text"></p>
+<li><p>log-log plots<br><img src="/images/image-12.png" alt="alt text"></p>
 <p>   According to the log-log plots, the plots of the variable <code>dependents</code> and <code>techSupport</code> are nearly parallel, which means the variable <code>dependents</code> and <code>techSupport</code> are proportional.</p>
 </li>
 </ul>
@@ -351,7 +351,7 @@
 <li><code>techSupport</code></li>
 <li><code>paymentMethod</code></li>
 </ul>
-<p><strong>Model Summary Raw Result</strong>:<br><img src="/image-13.png" alt="alt text"><br><img src="/image-14.png" alt="alt text"></p>
+<p><strong>Model Summary Raw Result</strong>:<br><img src="/images/image-13.png" alt="alt text"><br><img src="/images/image-14.png" alt="alt text"></p>
 <p><strong>Model Summary</strong>:</p>
 <table>
 <thead>
@@ -417,7 +417,7 @@
 <td>Associated with reduced time of churn</td>
 </tr>
 </tbody></table>
-<p><strong>Assumptions Checks</strong>:<br><img src="/image-15.png" alt="alt text"></p>
+<p><strong>Assumptions Checks</strong>:<br><img src="/images/image-15.png" alt="alt text"></p>
 <ul>
 <li>First we check the <code>Proportional Odds</code> asumption. None of the plot is parallel, which means the <code>Proportional Odds</code> assumption is not satisfied.</li>
 <li>Then we check the <code>Log-Logistic Distribution</code> assumption. Variables like <code>partner</code>, <code>onlineSecurity</code> and <code>deviceProtection</code> satisfied the assumption becuase their plots are linear.</li>
@@ -427,7 +427,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/04/13/Survival_blog/index/" data-id="cm9fv6leq0001osu05gtk6dsl" data-title="Survival Analysis on Telco Customer Churn" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2025/04/13/survival-blog/" data-id="cm9fvodaj0000vku007em86nt" data-title="Survival Analysis on Telco Customer Churn" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -478,7 +478,7 @@
       <ul>
         
           <li>
-            <a href="/2025/04/13/Survival_blog/index/">Survival Analysis on Telco Customer Churn</a>
+            <a href="/2025/04/13/survival-blog/">Survival Analysis on Telco Customer Churn</a>
           </li>
         
           <li>
